@@ -5,7 +5,7 @@ var buildId = process.env.CIRCLE_BUILD_NUM || process.env.TRAVIS_JOB_NUMBER
 module.exports = {
   'src_folders': ['test-browser/tests'],
   'output_folder': 'reports',
-  'custom_commands_path': '',
+  'custom_commands_path': ['test-browser/commands'],
   'custom_assertions_path': '',
   'page_objects_path': '',
   'globals_path': '',
