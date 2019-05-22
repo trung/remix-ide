@@ -10,6 +10,8 @@ const css = csjs`
   .swapitTitle {
     text-transform: uppercase;
     white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .swapitTitle a{
     cursor: help;
